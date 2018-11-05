@@ -1,0 +1,101 @@
+{
+	"intents": [
+	{
+		"intent": "LeaveMessageIntent",
+		"slots": [
+		{
+			"name": "RemindeeName",
+			"type": "AMAZON.US_FIRST_NAME"
+		},
+		{
+			"name": "ReminderMessage",
+			"type": "REMINDER"
+		}
+		]
+	},
+	{
+		"intent": "GetMessagesIntent",
+		"slots": [
+		{
+			"name": "RemindeeName",
+			"type": "AMAZON.US_FIRST_NAME"
+		}
+		]
+	},
+	{
+		"intent": "GetAllMessagesIntent"
+	},
+	{
+		"intent": "ClearMessagesIntent",
+		"slots": [
+		{
+			"name": "RemindeeName",
+			"type": "AMAZON.US_FIRST_NAME"
+		}
+		]
+	},
+	{
+		"intent": "RepromptNameIntent",
+		"slots": [
+		{
+			"name": "RemindeeName",
+			"type": "AMAZON.US_FIRST_NAME"
+		}
+		]
+	},
+	{
+		"intent": "NobodyIntent"
+	},
+	{
+		"intent": "RepromptMessageIntent",
+		"slots": [
+		{
+			"name": "ReminderMessage",
+			"type": "REMINDER"
+		}
+		]
+	},
+	{
+		"intent": "DeleteLastMessageIntent"
+	},
+	{
+		"intent": "GetMyMessagesIntent"
+	},
+	{
+		"intent": "GetMessagesGenericIntent"
+	},
+	{
+		"intent": "DeleteMyMessagesIntent"
+	},
+	{
+		"intent": "ClearAllMessagesIntent"
+	},
+	{
+		"intent": "NextMessageIntent"
+	},
+	{
+		"intent": "LeaveMessageGenericIntent"
+	},
+	{
+		"intent": "AMAZON.YesIntent"
+	},
+	{
+		"intent": "AMAZON.NoIntent"
+	},
+	{
+		"intent": "AMAZON.HelpIntent"
+	},
+	{
+		"intent": "AMAZON.RepeatIntent"
+	},
+	{
+		"intent": "AMAZON.StartOverIntent"
+	},
+	{
+		"intent": "AMAZON.StopIntent"
+	},
+	{
+		"intent": "AMAZON.CancelIntent"
+	}
+	]
+}

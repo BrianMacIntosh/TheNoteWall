@@ -1,0 +1,223 @@
+LeaveMessageIntent tell {RemindeeName} {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} to {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} that {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} he needs to {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} she needs to {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} that he needs to {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} that she needs to {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} he should {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} she should {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} that he should {ReminderMessage}
+LeaveMessageIntent tell {RemindeeName} that she should {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} to {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} that {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} he needs to {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} she needs to {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} that he needs to {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} that she needs to {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} he should {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} she should {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} that he should {ReminderMessage}
+LeaveMessageIntent remind {RemindeeName} that she should {ReminderMessage}
+LeaveMessageIntent take a note that {RemindeeName} needs to {ReminderMessage}
+LeaveMessageIntent take a note that {RemindeeName} should {ReminderMessage}
+LeaveMessageIntent take a note for {RemindeeName} to {ReminderMessage}
+LeaveMessageIntent take a note for {RemindeeName} that he needs to {ReminderMessage}
+LeaveMessageIntent take a note for {RemindeeName} that he should {ReminderMessage}
+LeaveMessageIntent leave a note that {RemindeeName} needs to {ReminderMessage}
+LeaveMessageIntent leave a note that {RemindeeName} should {ReminderMessage}
+LeaveMessageIntent leave a note for {RemindeeName} to {ReminderMessage}
+LeaveMessageIntent leave a note for {RemindeeName} that he needs to {ReminderMessage}
+LeaveMessageIntent leave a note for {RemindeeName} that he should {ReminderMessage}
+LeaveMessageIntent leave {RemindeeName} a note that says {ReminderMessage}
+LeaveMessageIntent leave {RemindeeName} a reminder that says {ReminderMessage}
+LeaveMessageIntent leave {RemindeeName} a message that says {ReminderMessage}
+LeaveMessageIntent leave {RemindeeName} a note that {ReminderMessage}
+LeaveMessageIntent leave {RemindeeName} a reminder that {ReminderMessage}
+LeaveMessageIntent leave {RemindeeName} a message that {ReminderMessage}
+LeaveMessageIntent note that {RemindeeName} needs to {ReminderMessage}
+LeaveMessageIntent note that {RemindeeName} should {ReminderMessage}
+LeaveMessageIntent remember that {RemindeeName} needs to {ReminderMessage}
+LeaveMessageIntent remember that {RemindeeName} should {ReminderMessage}
+LeaveMessageIntent ask {RemindeeName} to {ReminderMessage}
+LeaveMessageGenericIntent leave a note
+LeaveMessageGenericIntent leave a reminder
+LeaveMessageGenericIntent leave a message
+LeaveMessageGenericIntent take a note
+LeaveMessageGenericIntent take a reminder
+LeaveMessageGenericIntent take a message
+LeaveMessageGenericIntent note
+LeaveMessageGenericIntent message
+LeaveMessageGenericIntent reminder
+RepromptNameIntent {RemindeeName}
+RepromptMessageIntent {ReminderMessage}
+NobodyIntent nobody
+NobodyIntent none
+NobodyIntent no one
+DeleteLastMessageIntent delete the last message
+DeleteLastMessageIntent delete the last reminder
+DeleteLastMessageIntent delete the last note
+DeleteLastMessageIntent delete the previous message
+DeleteLastMessageIntent delete the previous reminder
+DeleteLastMessageIntent delete the previous note
+GetMyMessagesIntent if there are any messages for me
+GetMyMessagesIntent are there any messages for me
+GetMyMessagesIntent my messages
+GetMyMessagesIntent read my messages
+GetMyMessagesIntent give me my messages
+GetMyMessagesIntent state my messages
+GetMyMessagesIntent if there are any reminders for me
+GetMyMessagesIntent are there any reminders for me
+GetMyMessagesIntent my reminders
+GetMyMessagesIntent read my reminders
+GetMyMessagesIntent give me my reminders
+GetMyMessagesIntent state my reminders
+GetMyMessagesIntent if there are any notes for me
+GetMyMessagesIntent are there any notes for me
+GetMyMessagesIntent my notes
+GetMyMessagesIntent read my notes
+GetMyMessagesIntent give me my notes
+GetMyMessagesIntent state my notes
+GetMyMessagesIntent if there is anything for me
+GetMyMessagesIntent is there anything for me
+GetMyMessagesIntent if anyone left me any notes
+GetMyMessagesIntent if anyone left me any messages
+GetMyMessagesIntent if anyone left me any reminders
+GetMyMessagesIntent if anyone has left me any notes
+GetMyMessagesIntent if anyone has left me any messages
+GetMyMessagesIntent if anyone has left me any reminders
+GetMyMessagesIntent has anyone has left me any notes
+GetMyMessagesIntent has anyone has left me any messages
+GetMyMessagesIntent has anyone has left me any reminders
+GetMessagesGenericIntent read someone's notes
+GetMessagesGenericIntent read someone's messages
+GetMessagesGenericIntent read someone's reminders
+GetMessagesGenericIntent listen to someone's notes
+GetMessagesGenericIntent listen to someone's messages
+GetMessagesGenericIntent listen to someone's reminders
+GetMessagesGenericIntent listen to notes
+GetMessagesGenericIntent listen to messages
+GetMessagesGenericIntent listen to reminders
+GetMessagesGenericIntent notes
+GetMessagesGenericIntent messages
+GetMessagesGenericIntent reminders
+DeleteMyMessagesIntent delete my notes
+DeleteMyMessagesIntent clear my notes
+DeleteMyMessagesIntent erase my notes
+DeleteMyMessagesIntent delete all of my notes
+DeleteMyMessagesIntent clear all of my notes
+DeleteMyMessagesIntent erase all of my notes
+DeleteMyMessagesIntent delete my messages
+DeleteMyMessagesIntent clear my messages
+DeleteMyMessagesIntent erase my messages
+DeleteMyMessagesIntent delete all of my messages
+DeleteMyMessagesIntent clear all of my messages
+DeleteMyMessagesIntent erase all of my messages
+DeleteMyMessagesIntent delete my reminders
+DeleteMyMessagesIntent clear my reminders
+DeleteMyMessagesIntent erase my reminders
+DeleteMyMessagesIntent delete all of my reminders
+DeleteMyMessagesIntent clear all of my reminders
+DeleteMyMessagesIntent erase all of my reminders
+GetMessagesIntent if there are any messages for {RemindeeName}
+GetMessagesIntent are there are any messages for {RemindeeName}
+GetMessagesIntent messages for {RemindeeName}
+GetMessagesIntent get messages for {RemindeeName}
+GetMessagesIntent read messages for {RemindeeName}
+GetMessagesIntent if there are any reminders for {RemindeeName}
+GetMessagesIntent are there are any reminders for {RemindeeName}
+GetMessagesIntent reminders for {RemindeeName}
+GetMessagesIntent get reminders for {RemindeeName}
+GetMessagesIntent read reminders for {RemindeeName}
+GetMessagesIntent if there are any notes for {RemindeeName}
+GetMessagesIntent are there are any notes for {RemindeeName}
+GetMessagesIntent notes for {RemindeeName}
+GetMessagesIntent get notes for {RemindeeName}
+GetMessagesIntent read notes for {RemindeeName}
+GetMessagesIntent if there is anything for {RemindeeName}
+GetMessagesIntent is there anything for {RemindeeName}
+GetMessagesIntent listen to notes for {RemindeeName}
+GetMessagesIntent listen to messages for {RemindeeName}
+GetMessagesIntent listen to reminders for {RemindeeName}
+GetAllMessagesIntent who has messages
+GetAllMessagesIntent what messages there are
+GetAllMessagesIntent what messages are there
+GetAllMessagesIntent who has messages
+GetAllMessagesIntent all messages
+GetAllMessagesIntent say all messages
+GetAllMessagesIntent read all messages
+GetAllMessagesIntent get all messages
+GetAllMessagesIntent tell me all messages
+GetAllMessagesIntent all messages
+GetAllMessagesIntent who has reminders
+GetAllMessagesIntent what reminders there are
+GetAllMessagesIntent what reminders are there
+GetAllMessagesIntent who has reminders
+GetAllMessagesIntent all reminders
+GetAllMessagesIntent say all reminders
+GetAllMessagesIntent read all reminders
+GetAllMessagesIntent get all reminders
+GetAllMessagesIntent tell me all reminders
+GetAllMessagesIntent all reminders
+GetAllMessagesIntent who has notes
+GetAllMessagesIntent what notes there are
+GetAllMessagesIntent what notes are there
+GetAllMessagesIntent who has notes
+GetAllMessagesIntent all notes
+GetAllMessagesIntent say all notes
+GetAllMessagesIntent read all notes
+GetAllMessagesIntent get all notes
+GetAllMessagesIntent tell me all notes
+GetAllMessagesIntent all notes
+ClearMessagesIntent erase messages for {RemindeeName}
+ClearMessagesIntent delete messages for {RemindeeName}
+ClearMessagesIntent clear messages for {RemindeeName}
+ClearMessagesIntent erase all messages for {RemindeeName}
+ClearMessagesIntent delete all messages for {RemindeeName}
+ClearMessagesIntent clear all messages for {RemindeeName}
+ClearMessagesIntent erase reminders for {RemindeeName}
+ClearMessagesIntent delete reminders for {RemindeeName}
+ClearMessagesIntent clear reminders for {RemindeeName}
+ClearMessagesIntent erase all reminders for {RemindeeName}
+ClearMessagesIntent delete all reminders for {RemindeeName}
+ClearMessagesIntent clear all reminders for {RemindeeName}
+ClearMessagesIntent erase notes for {RemindeeName}
+ClearMessagesIntent delete notes for {RemindeeName}
+ClearMessagesIntent clear notes for {RemindeeName}
+ClearMessagesIntent erase all notes for {RemindeeName}
+ClearMessagesIntent delete all notes for {RemindeeName}
+ClearMessagesIntent clear all notes for {RemindeeName}
+ClearAllMessagesIntent erase all messages
+ClearAllMessagesIntent delete all messages
+ClearAllMessagesIntent clear all messages
+ClearAllMessagesIntent erase all the messages
+ClearAllMessagesIntent delete all the messages
+ClearAllMessagesIntent clear all the messages
+ClearAllMessagesIntent erase all reminders
+ClearAllMessagesIntent delete all reminders
+ClearAllMessagesIntent clear all reminders
+ClearAllMessagesIntent erase all the reminders
+ClearAllMessagesIntent delete all the reminders
+ClearAllMessagesIntent clear all the reminders
+ClearAllMessagesIntent erase all notes
+ClearAllMessagesIntent delete all notes
+ClearAllMessagesIntent clear all notes
+ClearAllMessagesIntent erase all the notes
+ClearAllMessagesIntent delete all the notes
+ClearAllMessagesIntent clear all the notes
+NextMessageIntent next message
+NextMessageIntent next note
+NextMessageIntent next reminder
+NextMessageIntent skip
+NextMessageIntent next
+NextMessageIntent move on
+NextMessageIntent proceed
+NextMessageIntent continue
+NextMessageIntent advance
+NextMessageIntent go on
+NextMessageIntent go to the next message
+NextMessageIntent go to the next note
+NextMessageIntent go to the next reminder
+NextMessageIntent read the next message
+NextMessageIntent read the next note
+NextMessageIntent read the next reminder

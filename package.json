@@ -1,0 +1,13 @@
+{
+  "name": "alexa-thenotewall",
+  "displayName": "The Note Wall",
+  "version": "1.0.0",
+  "description": "Alexa Skill to take reminders and notes for specific people.",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  },
+  "devDependencies": {
+    "alexa-skill-test-framework": "^1.0.1",
+    "mocha": "^3.2.0"
+  }
+}
